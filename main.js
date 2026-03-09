@@ -9,16 +9,16 @@ const command = args[0] ? args[0].toLowerCase() : "";
 
 function showHelp() {
   console.log(`
-📱 adbq CLI
+📱 adb-qr CLI
 
-Usage: npx adbq [command] [options]
+Usage: npx adb-qr [command] [options]
 
 Commands:
   (empty) | qr | qrcode     Start QR code pairing logic and connect to device over WiFi.
   download | update |       Force download of the latest Android platform-tools (ADB).
   upgrade | install         Displays previous and new version numbers.
   help | --help | -h        Show this help message.
-  <any adb command>         Executes the raw adb command. (e.g. npx adbq devices)
+  <any adb command>         Executes the raw adb command. (e.g. npx adb-qr devices)
   `);
 }
 

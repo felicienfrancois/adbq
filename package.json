@@ -1,5 +1,5 @@
 {
-  "name": "adbq",
+  "name": "adb-qr",
   "version": "1.0.0",
   "description": "ADB with frictionless QR Code pairing. (Wireless Android Debug Bridge pairing via QR Code, auto-discovers mDNS, downloads platform-tools automatically).",
   "main": "./main.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/felicienfrancois/adbq"
+    "url": "https://github.com/felicienfrancois/adb-qr"
   },
   "keywords": [
     "adb",
@@ -27,15 +27,15 @@
   "author": "Felicien Francois",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/felicienfrancois/adbq/issues"
+    "url": "https://github.com/felicienfrancois/adb-qr/issues"
   },
-  "homepage": "https://github.com/felicienfrancois/adbq",
+  "homepage": "https://github.com/felicienfrancois/adb-qr",
   "type": "commonjs",
   "dependencies": {
     "extract-zip": "^2.0.1",
     "qrcode-terminal": "^0.12.0"
   },
   "bin": {
-    "adbq": "./main.js"
+    "adb-qr": "./main.js"
   }
 }
